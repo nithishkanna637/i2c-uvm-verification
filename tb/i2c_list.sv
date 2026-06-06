@@ -1,0 +1,15 @@
+`include "uvm_macros.svh"
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "i2c_intr.sv"
+`include "i2c_tx.sv"
+`include "i2c_sequence.sv"
+`include "i2c_driver.sv"
+`include "i2c_mon.sv"
+`include "i2c_agent.sv"
+`include "i2c_env.sv"
+`include "i2c_test.sv"
+`include "i2c_master.sv"
+`include "i2c_slave.sv"
+`include "i2c_top.sv"
